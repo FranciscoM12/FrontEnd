@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px   ;
+    background-color:#ff0040 ;
+   
+}
+
+a{
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    color: 	#FFBA00;
+}
+header {
+    background: #008080;
+    color: white;
+    padding: 1.5rem 2.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  
+  }
