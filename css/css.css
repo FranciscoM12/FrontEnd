@@ -10,12 +10,15 @@ main{
     background-color:#ff0040 ;
    
 }
-
 a{
+    color:#FFBA00;
+
+}
+span{
     font-size: 65px;
     display: flex;
     justify-content: center;
-    color: 	#FFBA00;
+  
 }
 header {
     background: #008080;
