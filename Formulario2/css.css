@@ -1,0 +1,184 @@
+body{
+    --colorverde:#1CD1B0;
+    --colorazul:#00669F;
+    box-sizing: border-box;
+width: 1440px;
+margin: 0%;
+width: 100%;
+margin-right: 0%;
+box-sizing: border-box;}
+
+
+
+html{
+    width: 1440px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.textotop{
+    background-color:var(--colorverde);
+    margin: 0%;
+    padding-left: 1%;
+  
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+}
+h2 {
+    background-color: #00669F;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 84px;
+    color: white;
+    margin: 0;
+    padding-left: 20px;
+}
+
+
+.nombre,.fecha,.especie{
+   width:  343px;
+   border-radius: 15.34px;
+   height: 60px;
+    border-width: 0px;
+}
+.nombre{
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.fecha{
+    margin-top: 15px;
+}
+.especie{
+    margin-bottom: 40px;
+    margin-top: 17px;
+}
+label{
+    color: white;
+    font-family:'Inter', sans-serif;
+}
+div{
+    width: 954px ;
+    height: 832px;
+    background-color: #00669F;
+    position: relative;
+    left: 25%;
+    right: 25%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-top: 50px;
+
+}
+fieldset{
+    border: 0px;
+}
+.boton{
+    margin-top: 30px;
+    border-radius: 20px 20px 20px 20px;
+    width: 414px;
+    height: 73px;
+    background-color: var(--colorverde);
+    font-weight: 700;
+    border-width: 0cm;
+    margin-left: 27%;
+    font-family:'Inter', sans-serif;
+    font-size: 40px;
+}
+.fieldset1{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 343px;
+   
+}
+.fieldset2{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 343px;
+    position: relative;
+    left: 110px;
+}
+.checkbox{
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  
+}
+
+textarea{
+    margin-top: 30px;
+    height: 307px;
+    width: 100%;
+    color: blue;
+    border-radius: 15.34px;
+    font-family:'Inter', sans-serif;
+    size: 30px;
+    font-weight: 300;
+}
+h1{
+    font-family:'Inter', sans-serif;
+    font-size: 40px;
+    padding-top: 12px;
+    font-weight: 700;
+    margin-bottom: 1%;
+}
+h4{
+    font-family:'Inter', sans-serif;
+    size: 20px;
+    font-weight: 300;
+    margin-top: 0%;
+}
+h1,h4{
+    color: white;
+    text-align: center;
+}
+
+.check{
+    width: 100%;
+}
+hr{
+    margin-top: 32px;
+    margin-bottom: 20px;
+    padding-right: 100px
+}
+.file{
+    margin-top: 30px;
+    margin-bottom: 47px;  
+}
+.radio{
+    margin-top: 20px;
+}
+textarea::placeholder{
+    padding-left: 10px;
+    padding-top: 10px;
+    size: 30px;
+}
+.derechos {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: var(--colorazul);
+    margin-bottom: 0%;
+}
+span{
+    position: relative;
+    padding-right: 20px;
+    top: 5px;
+
+}
+nav{
+    background-color: #001D2D;
+    padding-bottom: 0.8%;
+    color: white;
+    padding-left: 85%;
+  
+}
+.descuento{
+    background-color: var(--colorverde);
+    padding-left: 20px;
+}
